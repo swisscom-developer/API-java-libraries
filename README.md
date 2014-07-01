@@ -1,8 +1,8 @@
 API-java-libraries
 ==================
 
-SendSMS -  Methode Details
---------------------------
+### SendSMS -  Methode Details
+
 ```public java.lang.String sendSms(java.lang.String clientId,
                                 java.lang.String from,
                                 java.lang.String to,
@@ -17,8 +17,8 @@ Returns:
 HTTP Response
 
 
-TokenValidation -  Methode Details
---------------------------
+### TokenValidation -  Methode Details
+
 
 ```public java.lang.String sendTokenShort(java.lang.String clientId,
                                        java.lang.String to)```
@@ -59,8 +59,8 @@ Returns:
 HTTP Response
 
 
-NumberValidation - Methode Details
---------------------------
+### NumberValidation - Methode Details
+
 
 ```public java.lang.String validateNumber(java.lang.String clientId,
                                        java.lang.String phoneNumber)```
