@@ -20,8 +20,8 @@ HTTP Response
 TokenValidation -  Methode Details
 --------------------------
 
-public java.lang.String sendTokenShort(java.lang.String clientId,
-                                       java.lang.String to)
+```public java.lang.String sendTokenShort(java.lang.String clientId,
+                                       java.lang.String to)```
 Parameters:
 clientId -
 to - Swisscom mobile phone number
@@ -29,13 +29,13 @@ Returns:
 HTTP Response
 
 
-public java.lang.String sendTokenLong(java.lang.String clientId,
+```public java.lang.String sendTokenLong(java.lang.String clientId,
                                       java.lang.String to,
                                       java.lang.String text,
                                       java.lang.String tokenType,
                                       int expireTime,
                                       int tokenLength,
-                                      java.lang.String traceID)
+                                      java.lang.String traceID)```
 Parameters:
 clientId -
 to - Swisscom mobile phone number
@@ -48,9 +48,9 @@ Returns:
 HTTP Response
 
 
-public java.lang.String validateToken(java.lang.String clientId,
+```public java.lang.String validateToken(java.lang.String clientId,
                                       java.lang.String mobileNr,
-                                      java.lang.String token)
+                                      java.lang.String token)```
 Parameters:
 clientId -
 mobileNr - mobile number, which received the token
@@ -62,8 +62,8 @@ HTTP Response
 NumberValidation - Methode Details
 --------------------------
 
-public java.lang.String validateNumber(java.lang.String clientId,
-                                       java.lang.String phoneNumber)
+```public java.lang.String validateNumber(java.lang.String clientId,
+                                       java.lang.String phoneNumber)```
 Parameters:
 clientId -
 phoneNumber -
