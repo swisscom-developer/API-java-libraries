@@ -36,6 +36,7 @@ to - Swisscom mobile phone number
 Returns: HTTP Response
 
 
+
 ```public java.lang.String sendTokenLong(java.lang.String clientId,
                                       java.lang.String to,
                                       java.lang.String text,
@@ -51,17 +52,18 @@ clientId - key from developer.swisscom.com
 
 to - Swisscom mobile phone number
 
-text - message
+text - Appears as text in the SMS
 
-tokenType - SHORT_ALPHANUMERIC
+tokenType - Describes what kind of token should be generated. Is must be one of: SHORT_NUMERIC, SHORT_ALPHANUMERIC, SHORT_SMALL_AND_CAPITAL, LONG_CRYPTIC
 
-expireTime -
+expireTime - Expiration time of the token in seconds
 
-tokenLength -
+tokenLength - The size of the token
 
-traceID -
+traceID - Optional, but helps to track the request through the different systems
 
 Returns: HTTP Response
+
 
 
 ```public java.lang.String validateToken(java.lang.String clientId,
@@ -74,7 +76,7 @@ clientId - key from developer.swisscom.com
 
 mobileNr - mobile number, which received the token
 
-token -
+token - The token sent to the mobile number that needs verification. The format depends on the tokenType send in the Send SMS Token call
 
 Returns: HTTP Response
 
