@@ -22,11 +22,14 @@ HTTP Response
 
 ```public java.lang.String sendTokenShort(java.lang.String clientId,
                                        java.lang.String to)```
+                                       
 Parameters:
+
 clientId -
+
 to - Swisscom mobile phone number
-Returns:
-HTTP Response
+
+Returns:HTTP Response
 
 
 ```public java.lang.String sendTokenLong(java.lang.String clientId,
@@ -36,6 +39,7 @@ HTTP Response
                                       int expireTime,
                                       int tokenLength,
                                       java.lang.String traceID)```
+                                      
 Parameters:
 clientId -
 to - Swisscom mobile phone number
