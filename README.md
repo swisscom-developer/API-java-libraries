@@ -1,15 +1,13 @@
 API-java-libraries
 ==================
 
-API-Java-Libraries
-
-
 SendSMS -  Methode Details
-
-public java.lang.String sendSms(java.lang.String clientId,
+--------------------------
+```public java.lang.String sendSms(java.lang.String clientId,
                                 java.lang.String from,
                                 java.lang.String to,
-                                java.lang.String text)
+                                java.lang.String text)```
+                                
 Parameters:
 clientId - key from developer.swisscom.com
 from - mobile number
@@ -20,6 +18,7 @@ HTTP Response
 
 
 TokenValidation -  Methode Details
+--------------------------
 
 public java.lang.String sendTokenShort(java.lang.String clientId,
                                        java.lang.String to)
@@ -61,6 +60,7 @@ HTTP Response
 
 
 NumberValidation - Methode Details
+--------------------------
 
 public java.lang.String validateNumber(java.lang.String clientId,
                                        java.lang.String phoneNumber)
