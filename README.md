@@ -8,13 +8,17 @@ API-java-libraries
                                 java.lang.String to,
                                 java.lang.String text)```
                                 
-Parameters:
+##### Parameters:
+
 clientId - key from developer.swisscom.com
+
 from - mobile number
+
 to - mobile number
+
 text - message
-Returns:
-HTTP Response
+
+Returns: HTTP Response
 
 
 ### TokenValidation -  Methode Details
@@ -23,13 +27,13 @@ HTTP Response
 ```public java.lang.String sendTokenShort(java.lang.String clientId,
                                        java.lang.String to)```
                                        
-Parameters:
+##### Parameters:
 
-clientId -
+clientId - key from developer.swisscom.com
 
 to - Swisscom mobile phone number
 
-Returns:HTTP Response
+Returns: HTTP Response
 
 
 ```public java.lang.String sendTokenLong(java.lang.String clientId,
@@ -40,27 +44,39 @@ Returns:HTTP Response
                                       int tokenLength,
                                       java.lang.String traceID)```
                                       
-Parameters:
-clientId -
+                                      
+##### Parameters:
+
+clientId - key from developer.swisscom.com
+
 to - Swisscom mobile phone number
-text -
+
+text - message
+
 tokenType - SHORT_ALPHANUMERIC
+
 expireTime -
+
 tokenLength -
+
 traceID -
-Returns:
-HTTP Response
+
+Returns: HTTP Response
 
 
 ```public java.lang.String validateToken(java.lang.String clientId,
                                       java.lang.String mobileNr,
                                       java.lang.String token)```
-Parameters:
-clientId -
+                                      
+##### Parameters:
+
+clientId - key from developer.swisscom.com
+
 mobileNr - mobile number, which received the token
+
 token -
-Returns:
-HTTP Response
+
+Returns: HTTP Response
 
 
 ### NumberValidation - Methode Details
@@ -68,8 +84,12 @@ HTTP Response
 
 ```public java.lang.String validateNumber(java.lang.String clientId,
                                        java.lang.String phoneNumber)```
-Parameters:
-clientId -
+                                       
+##### Parameters:
+
+clientId - key from developer.swisscom.com
+
 phoneNumber -
-Returns:
-HTTP Response
+
+
+Returns: HTTP Response
